@@ -2,6 +2,8 @@
 declare(strict_types=1);
 require_once dirname(__FILE__) . '/Clock.php';
 class AnalogClock extends Clock{
+//exetendsを付けることでサブクラスを作成している。
+//extendsの後ろにスーパークラス（親クラス）の名前を書く
     public function show(): string{
         $minuteHand=90;
         $hourHand=157.5;
